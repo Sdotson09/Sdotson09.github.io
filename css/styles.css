@@ -16,7 +16,6 @@
 }
 
 body {
-  display: center;
   background-repeat: no-repeat;
   background: linear-gradient(to bottom, rgb(197,222,234) 23%,rgb(197,222,234) 23%,rgb(138,187,215) 57%,rgb(6,109,171) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
@@ -85,6 +84,7 @@ nav ul li a:hover {
 
 #main p {
     text-indent: 1.5em;
+    text-align: center;
 }
 
 figure{
@@ -101,6 +101,7 @@ aside {
     margin: 0 5px 0 5px;
     padding: 10px;
     float: right;
+    text-align: center;
 }
 
 aside p {
@@ -149,7 +150,7 @@ footer a:link {
 }
 
 footer a:visited {
-    color: navy;
+    color: white;
     background-color: grey;
     text-decoration: none;
 }
